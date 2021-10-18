@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-# WSGI_APPLICATION = 'loadstaticfiles.wsgi.application'
+WSGI_APPLICATION = 'loadstaticfiles.wsgi.application'
 
 
 # Database
