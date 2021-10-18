@@ -1,0 +1,1 @@
+web: gunicorn loadstaticfiles.wsgi --log-file -
