@@ -1,17 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Stream Cipher </title> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="/static/home/css/index.css"> -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'app1/css/style.css' %}">
 </head>
 
 <body>
-    <h1>
-        index page from main app on html page
-    </h1>
+    <!-- backghround drawing section  -->
+    <canvas id="canvas"></canvas>
+    <script src="{% static 'app1/js/script.js' %}"></script>
+
+    <!-- introduction section  start -->
+    <div class="name">
+        <p> Stream_Cipher</p>
+    </div>
+    <div class="col-md-12 text-center  account0"> <a class=" btn btn-primary btn-lg "
+            style=" position: relative; background-color: yellow; color: black;"
+            href="https://codeforces.com/profile/stream_cipher" target="_blank" role="button">Codeforces</a> <a
+            class="btn btn-primary btn-lg" style="position: relative; background-color: brown;"
+            href="https://www.codechef.com/users/stream_cipher" target="_blank" role="button">Codechef</a> <a
+            class="btn btn-primary btn-lg"
+            style="position: relative;background-color: rgb(95, 95, 84); color: rgb(223, 217, 217);"
+            href="https://atcoder.jp/users/Stream_Cipher" target="_blank" role="button">Atcoder</a> <a
+            class="btn btn-primary btn-lg" style="position: relative;background-color: green; color: black;"
+            href="https://www.hackerrank.com/Stream_Cipher" target="_blank" role="button">Hackerrank</a> <a
+            class="btn btn-primary btn-lg" style="position: relative;background-color: blue; color: white;"
+            href="https://www.hackerearth.com/@Stream_Cipher" target="_blank" role="button">Hackerearth</a> <a
+            class="btn btn-primary btn-lg" style="position: relative;background-color: brown; color: white;"
+            href="https://leetcode.com/stream_cipher/" target="_blank" role="button">Leetcode</a> </div>
+    <!-- introduction section  end-->
+
+
+
+
+    <!-- about me section  start -->
+    <div class="card text-center" style="background-color: rgb(245, 247, 158); height: 110vh; margin-top: -0.5vh;">
+        <div class="card-body">
+            <h5 class="card-title" style="font-size: 100px; padding-top: 25vh;">About Me</h5>
+            <p class="card-text" style="font-size: 40px;"> I am Final Year Engineering Student and my <br> major of
+                Study is
+                Information Technology <br> I Started Competitive Programming in second <br>Semester of my College
+                <br> I
+                have
+                participated in more than 250 programming contest <br>
+            </p> <a href="#" class="btn btn-primary" style="font-size: 30px;">Lets Check How
+                Well You Know Me ! </a>
+        </div>
+    </div>
+    <!-- about me section  end -->
+
+
+
+
+    <!-- my college projects section  start -->
+    <div class="card text-center" style="background-color: rgb(137, 201, 226); height: 100vh;">
+        <div class="card-body">
+            <h5 class="card-title" style="font-size: 100px; padding-top: 25vh;">My College Projects</h5>
+        </div>
+    </div>
+    <!-- my college projects section  end -->
 </body>
 
 </html>

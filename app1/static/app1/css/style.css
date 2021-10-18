@@ -1,0 +1,40 @@
+canvas {
+  background: #212220;
+}
+.center { 
+  position:absolute;
+  height: 100vh;
+  position: absolute;
+  /* border: 3px solid green;  */
+}
+.name {
+  margin: 0;
+  position:absolute;
+  font-size: 100px;
+  color: rgb(219, 213, 213);
+  top: 35%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.about_me {
+  background-color: #f7fcf1;
+  /* top: 35%; */
+  /* left: 50%; */
+  /* -ms-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
+}
+
+
+.account0 {
+  margin: 0;
+  position:absolute;
+  font-size: 100px;
+  color: red;
+  top: 40%;
+  /* margin-bottom: 10vh; */
+  /* left: 15%; */
+  /* display: inline-block; */
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
